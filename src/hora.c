@@ -20,7 +20,7 @@ void signalHandler(int senhal){
 	strftime(output,128,"%a %b %d %H:%M:%S %Y",tlocal);
 
 	if (senhal == SIGUSR1) {
-	
+		printf("hi");
 		printf("Señal SIGUSR1 recibida: %s", output);
 		printf("\nListo para recibir la señal SIGUSR1.\n");
 		pause();

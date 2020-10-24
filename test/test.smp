@@ -1,0 +1,23 @@
+start:
+ int x = tan(90) + cos(5*9) - sqrt(6/7);
+ bool y = true;
+ str z;
+ 
+ if (x >= 20):
+ 	z = "TEST STRING";
+ 	show(z);
+ 	show("TEST SHOW");
+ 	show(x * sin(50));
+ else if (x == 10):
+ 	y = false;
+ 	show(y);
+ 	
+while ((i == 20 or i == x) and x < cos(90)/sin(90)):
+	int i = i + 1;
+	show(i);
+	
+for (i = 0):
+	show("a" * i);
+	
+show("FINISHED TEST");	 
+end;
